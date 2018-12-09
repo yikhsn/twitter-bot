@@ -59,4 +59,4 @@ const getAyat = (data) => {
   return ayat;
 };
 
-setInterval(controlTweet, 60000);
+setInterval(controlTweet, 300000);
