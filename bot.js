@@ -53,10 +53,10 @@ const getAyat = (data) => {
   const ayat = 
     `${data.terjemahan_idn}
 
-(${data.surat.nama_surat} : ${data.nomor_ayat})
+(${data.surat.nama_surat}:${data.nomor_ayat})
     `;
 
   return ayat;
 };
 
-setInterval(controlTweet, 3600);
+setInterval(controlTweet, 60000);
